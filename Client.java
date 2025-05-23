@@ -2,17 +2,17 @@ import java.util.*;
 
 public class Client {
 
-    static ArrayList<ArrayList<Integer>> A = new ArrayList<>(
-        Arrays.asList(
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
-            new ArrayList<>(Arrays.asList(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
-        )
-    );
+static ArrayList<ArrayList<Integer>> A = new ArrayList<>(
+     Arrays.asList(
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)),
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1)),
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0)),
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0)),
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0)),
+        new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0)),
+        new ArrayList<>(Arrays.asList(1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+    )
+ );
 
     public static void main(String[] args) {
         ArrayList<String> answerList = new ArrayList<>();
